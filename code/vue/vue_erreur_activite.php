@@ -1,0 +1,29 @@
+<?php
+  $titre ='MesActivités - erreur';
+
+// vue_erreur_activite.php
+// Date de création : 04/05/17
+// Auteur : RSA
+// Fonction : vue pour l'affichage des erreurs si l'utilisateur a ouvert une activité.
+// __________________________________________
+
+// Tampon de flux stocké en mémoire
+ob_start();
+?>
+
+<article>
+  <header>
+      <!-- <h2> Erreur </h2>-->
+    <!--<p>L'action demandée est inconnue !</p>-->
+    <?/*=@$_SESSION['erreur'];*/?>
+  </header>
+</article>
+<hr/>
+
+<?php 
+  $contenu = ob_get_clean();
+  require 'gabarit.php';
+?>  
+      
+      
+      

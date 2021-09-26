@@ -1,0 +1,4 @@
+#AuthName "This site is protected with a password"
+#AuthType Basic
+#AuthUserFile "/home/mesactivjr/www/.htpasswd"
+#require valid-user*/
